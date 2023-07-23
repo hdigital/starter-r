@@ -1,0 +1,45 @@
+---
+title: How-to 💡
+date-modified: last-modified
+toc: true
+---
+
+## Notebooks 📒
+
+conditional cell execution based on format
+
+- see [conditional content](https://quarto.org/docs/authoring/conditional.html) to hide Markdown rendering
+- see [ticket #63260](https://github.com/quarto-dev/quarto-cli/discussions/3260) for future language-agnostic version
+
+```{r}
+if (knitr::is_html_output()) {
+  print("code block run")
+}
+```
+
+```{r}
+if (! knitr::is_html_output()) {
+  print("code block not run")
+}
+```
+
+## Run all 🏃🏼‍♀️
+
+Run all R scripts and render notebooks in current folder
+
+```{r}
+#| eval: false
+
+purrr::map(fs::dir_ls(".", glob = "*.R"), callr::rscript);
+purrr::map(fs::dir_ls(".", glob = "*.Rmd"), rmarkdown::render);
+```
+
+Use script and save output
+
+```R
+callr::rscript("z-run-all.R", stdout="z-run-all.log")  # R console
+```
+
+```sh
+Rscript z-run-all.R > "z-run-all.log"                  # terminal
+```

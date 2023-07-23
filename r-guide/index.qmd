@@ -1,0 +1,9 @@
+
+## Notes · 🔖
+
+- [Style guide](style-guide.qmd)
+- [How-to](how-to.qmd)
+
+## Links · 🔗
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/)

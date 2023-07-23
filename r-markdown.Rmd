@@ -1,0 +1,56 @@
+---
+title: "HD Rmd template"
+author: "Holger Doering --- holger.doering@gesis.org"
+date: "`r format(Sys.time(), '%d %B %Y, %H:%M')`"
+output:
+  html_notebook:
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+  html_document:
+    df_print: paged
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+<style type="text/css"> <!-- .table { width: auto } ---> </style>
+
+```{r options, include=FALSE}
+knitr::opts_knit$set(
+  # # options not used in "html_notebook" preview (*.nb.html, RStudio)
+  # comment = NA,
+  message = FALSE,
+  # results = "hide",
+  warning = FALSE,
+  package.startup.message = FALSE
+)
+
+options(
+  tidyverse.quiet = TRUE,
+  dplyr.summarise.inform = FALSE,
+  readr.num_columns = 0,
+  knitr.kable.NA = "",
+  width = 100
+)
+```
+
+## Information
+
++ use mainly for interactive data exploration in [__notebooks__](https://rmarkdown.rstudio.com/lesson-10.html) with RStudio
++ use [Quarto](https://quarto.org/docs/guide/) for __documents__ instead of [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
++ see more code examples in [HD qmd template](https://github.com/hdigital/teaching/blob/main/2-r-style-guide-hd/HD-qmd-template.R.qmd)
+
+
+
+```{r snippet, message=FALSE}
+library(tidyverse)
+
+cars <-
+  datasets::mtcars |>
+  as_tibble()
+
+ggplot(cars, aes(x = hp, y = mpg)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(se = FALSE)
+```
+

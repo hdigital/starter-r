@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "style-guide.html",
+    "href": "style-guide.html",
+    "title": "Style guide 🧑🏻‍💻",
+    "section": "",
+    "text": "The tidyverse style guide\npipes — |&gt; · 🌬️\n\none line for each step in a pipe\nfirst line pipe with name of new object and assignment operator (only)\nuse Base-R pipe |&gt; over Tidyverse-R pipe %&gt;% for R &gt;= 4.2\n\nplaceholder _ (|&gt;) instead of . (%&gt;%)\ncheck Use native pipe operator in RStudio\n\n\ndata · 🔢\n\nuse coherent prefixes for groups of data // dt dt_ctry dt_ctz\nprefix raw_ for raw data read into object with\n\nplots · 📊\n\nprefix pl for plot objects // pl pl1 pl2\ndata for plot only into pl_dt object\n\nmodels · 🔬\n\nprefix mo for model objects // mo mo_lm mo1\n\nworkflow · ⚙️\n\n.gitignore sources with source__ prefix\n\n[ single option to ignore copyright protected, personal or sensible sources ]\n\nfinal checks\n\nrestart R session and run all\ncheck all object names\ncheck console messages and warnings\n\nreproducible environments with Rocker\n\nsee Dockerfile and docker-compose.yml examples\n\n\npackages · 📦 // see snippet below\n\nuse conflicted to avoid function name conflicts\n\nload first with library(conflicted)\nspecify preferred functions (e.g. conflicts_prefer(dplyr::filter()))\n\nload library(tidyverse) after conflicted\nadd brief description why package is loaded\n\nlibrary(broom)  # models // tidy results\n\norder packages loaded by thematic groups\n\nplot — patchwork ggrepel\nmodels — broom · ggeffects\n\nspecify single usage of package with ::\n\ncomment below loading packages block // # janitor::\nno comment for usage tidyverse of packages that are not loaded with library(tidyverse) (e.g. glue readxl)\n[ reduce potential name conflicts and code completion options ]"
+  },
+  {
+    "objectID": "style-guide.html#r-style-guide",
+    "href": "style-guide.html#r-style-guide",
+    "title": "Style guide 🧑🏻‍💻",
+    "section": "",
+    "text": "The tidyverse style guide\npipes — |&gt; · 🌬️\n\none line for each step in a pipe\nfirst line pipe with name of new object and assignment operator (only)\nuse Base-R pipe |&gt; over Tidyverse-R pipe %&gt;% for R &gt;= 4.2\n\nplaceholder _ (|&gt;) instead of . (%&gt;%)\ncheck Use native pipe operator in RStudio\n\n\ndata · 🔢\n\nuse coherent prefixes for groups of data // dt dt_ctry dt_ctz\nprefix raw_ for raw data read into object with\n\nplots · 📊\n\nprefix pl for plot objects // pl pl1 pl2\ndata for plot only into pl_dt object\n\nmodels · 🔬\n\nprefix mo for model objects // mo mo_lm mo1\n\nworkflow · ⚙️\n\n.gitignore sources with source__ prefix\n\n[ single option to ignore copyright protected, personal or sensible sources ]\n\nfinal checks\n\nrestart R session and run all\ncheck all object names\ncheck console messages and warnings\n\nreproducible environments with Rocker\n\nsee Dockerfile and docker-compose.yml examples\n\n\npackages · 📦 // see snippet below\n\nuse conflicted to avoid function name conflicts\n\nload first with library(conflicted)\nspecify preferred functions (e.g. conflicts_prefer(dplyr::filter()))\n\nload library(tidyverse) after conflicted\nadd brief description why package is loaded\n\nlibrary(broom)  # models // tidy results\n\norder packages loaded by thematic groups\n\nplot — patchwork ggrepel\nmodels — broom · ggeffects\n\nspecify single usage of package with ::\n\ncomment below loading packages block // # janitor::\nno comment for usage tidyverse of packages that are not loaded with library(tidyverse) (e.g. glue readxl)\n[ reduce potential name conflicts and code completion options ]"
+  },
+  {
+    "objectID": "style-guide.html#snippets",
+    "href": "style-guide.html#snippets",
+    "title": "Style guide 🧑🏻‍💻",
+    "section": "Snippets · ✂️",
+    "text": "Snippets · ✂️\nLoading packages\nlibrary(conflicted) # create errors for function name conflicts\nconflicts_prefer(dplyr::filter, .quiet = TRUE)\n\nlibrary(tidyverse)\n\n# order alphabetically in section and provide category with brief description\nlibrary(broom)      # models // tidy results\nlibrary(ggeffects)  # models // visualize model effects\nlibrary(patchwork)  # plots  // arrange plots\nlibrary(reactable)  # layout // interactive data tables\nlibrary(sf)         # maps   // spatial data tools\n\n# DT:: skimr:: viridis::\n\nNote — These are my personal best practices for code formatting in Tidyverse R. They have evolved over time and not all my previous code may follow these guidelines."
+  },
+  {
+    "objectID": "how-to.html",
+    "href": "how-to.html",
+    "title": "How-to 💡",
+    "section": "",
+    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (! knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
+  },
+  {
+    "objectID": "how-to.html#notebooks",
+    "href": "how-to.html#notebooks",
+    "title": "How-to 💡",
+    "section": "",
+    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (! knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
+  },
+  {
+    "objectID": "how-to.html#run-all",
+    "href": "how-to.html#run-all",
+    "title": "How-to 💡",
+    "section": "Run all 🏃🏼‍♀️",
+    "text": "Run all 🏃🏼‍♀️\nRun all R scripts and render notebooks in current folder\n\npurrr::map(fs::dir_ls(\".\", glob = \"*.R\"), callr::rscript);\npurrr::map(fs::dir_ls(\".\", glob = \"*.Rmd\"), rmarkdown::render);\n\nUse script and save output\ncallr::rscript(\"z-run-all.R\", stdout=\"z-run-all.log\")  # R console\nRscript z-run-all.R &gt; \"z-run-all.log\"                  # terminal"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R notes 📊",
+    "section": "",
+    "text": "Style guide\nHow-to"
+  },
+  {
+    "objectID": "index.html#notes",
+    "href": "index.html#notes",
+    "title": "R notes 📊",
+    "section": "",
+    "text": "Style guide\nHow-to"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "R notes 📊",
+    "section": "Links · 🔗",
+    "text": "Links · 🔗\n\nR for Data Science (2e)"
+  }
+]
