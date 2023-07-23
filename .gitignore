@@ -6,9 +6,9 @@ z-tmp__*
 .vscode/settings.json
 
 # Rocker files
-.cache/*
+.cache/
 .config/rstudio/rstudio-prefs.json
-.local/*
+.local/
 
 # OS files
 .DS_Store
