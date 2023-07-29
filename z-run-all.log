@@ -1,0 +1,42 @@
+named list()
+1/5          
+2/5 [options]
+3/5          
+4/5 [snippet]
+5/5          
+/usr/local/bin/pandoc +RTS -K512m -RTS r-markdown.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output r-markdown.html --lua-filter /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --table-of-contents --toc-depth 3 --variable toc_float=1 --variable toc_selectors=h1,h2,h3 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /var/folders/p0/bf0tqmss0x39p7gfnyfqqw5h0000gn/T//RtmpgOWA04/rmarkdown-strcd3a4de7b9df.html --variable code_folding=hide --variable source_embed=r-markdown.Rmd --include-after-body /var/folders/p0/bf0tqmss0x39p7gfnyfqqw5h0000gn/T//RtmpgOWA04/filecd3a285c076e.html --variable code_menu=1 --variable kable-scroll=1 
+$`r-markdown.Rmd`
+[1] "/Users/hd/hd/data-projects/starter-r/r-markdown.nb.html"
+
+R version 4.3.0 (2023-04-21)
+Platform: x86_64-apple-darwin20 (64-bit)
+Running under: macOS Ventura 13.4.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] lubridate_1.9.2 forcats_1.0.0   stringr_1.5.0   dplyr_1.1.2     readr_2.1.4     tidyr_1.3.0    
+ [7] tibble_3.2.1    ggplot2_3.4.2   tidyverse_2.0.0 purrr_1.0.1     fs_1.6.3        callr_3.7.3    
+
+loaded via a namespace (and not attached):
+ [1] sass_0.4.7        utf8_1.2.3        generics_0.1.3    lattice_0.21-8    stringi_1.7.12   
+ [6] hms_1.1.3         digest_0.6.33     magrittr_2.0.3    evaluate_0.21     grid_4.3.0       
+[11] timechange_0.2.0  fastmap_1.1.1     Matrix_1.6-0      jsonlite_1.8.7    processx_3.8.2   
+[16] ps_1.7.5          mgcv_1.9-0        fansi_1.0.4       scales_1.2.1      jquerylib_0.1.4  
+[21] cli_3.6.1         rlang_1.1.1       munsell_0.5.0     splines_4.3.0     withr_2.5.0      
+[26] cachem_1.0.8      yaml_2.3.7        tools_4.3.0       tzdb_0.4.0        colorspace_2.1-0 
+[31] vctrs_0.6.3       R6_2.5.1          lifecycle_1.0.3   pkgconfig_2.0.3   pillar_1.9.0     
+[36] bslib_0.5.0       gtable_0.3.3      glue_1.6.2        highr_0.10        xfun_0.39        
+[41] tidyselect_1.2.0  rstudioapi_0.15.0 knitr_1.43        farver_2.1.1      nlme_3.1-162     
+[46] htmltools_0.5.5   labeling_0.4.2    rmarkdown_2.23    compiler_4.3.0   

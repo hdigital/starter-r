@@ -2,12 +2,12 @@
 
 Run all R scripts and render all notebooks
 
-```sh
-Rscript z-run-all.R            # terminal
-````
-
 ```R
-callr::rscript("z-run-all.R")  # R console
+callr::rscript("z-run-all.R", stdout="z-run-all.log")  # R console
+```
+
+```sh
+Rscript z-run-all.R > "z-run-all.log"                  # terminal
 ```
 
 ## Install · ⚙️
