@@ -18,6 +18,9 @@ RUN install2.r \
     skimr \
     sf
 
+# install R packages — alternative for two previous sections
+# RUN Rscript utils/packages-install.R
+
 # install Quarto
 RUN apt-get -y update && apt-get install -y --no-install-recommends curl gdebi-core
 RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
