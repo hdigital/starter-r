@@ -4,7 +4,7 @@ library(purrr)
 
 # run R scripts in subfolders
 r_scripts <- dir_ls(".", glob = "*.R", recurse = 1)
-r_scripts <- r_scripts[r_scripts != "z-run-all.R"]
+r_scripts <- r_scripts[!stringr::str_starts(r_scripts, "utils/")]
 map(r_scripts, rscript, spinner = TRUE)
 
 # render RMarkdown notebooks in subfolders
