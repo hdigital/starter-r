@@ -3,11 +3,11 @@
 Run all R scripts and render all notebooks
 
 ```R
-callr::rscript("z-run-all.R", stdout="z-run-all.log")  # R console
+callr::rscript("utils/run-all.R", stdout="utils/run-all.log")  # R console
 ```
 
 ```sh
-Rscript z-run-all.R > "z-run-all.log"                  # terminal
+Rscript utils/run-all.R > "utils/run-all.log"                  # terminal
 ```
 
 ## Install · ⚙️
