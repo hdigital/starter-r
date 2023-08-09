@@ -19,7 +19,7 @@ map(rmd_scripts, rmarkdown::render)
 system("quarto render *.qmd")
 
 # remove Rplots created with print()
-if(file_exists("Rplots.pdf")) {
+if (file_exists("Rplots.pdf")) {
   file_delete("Rplots.pdf")
 }
 
