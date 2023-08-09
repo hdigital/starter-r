@@ -9,7 +9,10 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
     libgeos-dev \
     libproj-dev
 
-# install R packages
+# install R packages — development tools and code style
+RUN install2.r renv
+
+# install R packages — data analysis
 RUN install2.r \
     ggeffects \
     patchwork \
