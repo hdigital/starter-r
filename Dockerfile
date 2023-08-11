@@ -10,7 +10,7 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
     libproj-dev
 
 # install R packages — development tools and code style
-RUN install2.r renv
+RUN install2.r lintr renv styler
 
 # install R packages — data analysis
 RUN install2.r \
