@@ -1,14 +1,16 @@
+# Local scripts and data files (ignore with prefix)
 source__*
 tmp__*
 z-tmp__*
 
-# local settings
+# Local settings files
 .vscode/settings.json
 
 # Rocker files
 .cache/
 .config/rstudio/rstudio-prefs.json
 .local/
+.TinyTeX/
 
 # OS files
 .DS_Store
