@@ -6,11 +6,17 @@ z-tmp__*
 # Local settings files
 .vscode/settings.json
 
+# Quarto files
+_freeze/
+.quarto/
+.luarc.json
+
 # Rocker files
 .cache/
-.config/rstudio/rstudio-prefs.json
+.config/
 .local/
 .TinyTeX/
+.luarc.json
 
 # OS files
 .DS_Store
