@@ -24,4 +24,4 @@ docker-compose down   # shut down container
 
 ## License · 💻
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) – Copyright (c) 2023 Holger Döring

@@ -3,8 +3,22 @@ library(fs)
 library(purrr)
 
 
+## Lock package versions ----
+
 # package versions project into 'renv.lock' (no renv-project used)
 renv::snapshot(prompt = FALSE)
+
+
+## Format and check code ----
+
+# format project code with tidyverse style guide
+styler::style_dir(exclude_dirs = c(".cache", "renv"))
+
+# check code style, syntax errors and semantic issues
+lintr::lint_dir()
+
+
+## Run R scripts and render notebooks ----
 
 # run R scripts in subfolders
 r_scripts <- dir_ls(".", glob = "*.R", recurse = 1)
@@ -19,9 +33,12 @@ map(rmd_scripts, rmarkdown::render)
 system("quarto render *.qmd")
 
 # remove Rplots created with print()
-if(file_exists("Rplots.pdf")) {
+if (file_exists("Rplots.pdf")) {
   file_delete("Rplots.pdf")
 }
+
+
+## Log session info ----
 
 # add session info (load all project packages)
 conflicted::conflicts_prefer(callr::run)

@@ -18,7 +18,7 @@ if (knitr::is_html_output()) {
 ```
 
 ```{r}
-if (! knitr::is_html_output()) {
+if (!knitr::is_html_output()) {
   print("code block not run")
 }
 ```
@@ -30,8 +30,8 @@ Run all R scripts and render notebooks in current folder
 ```{r}
 #| eval: false
 
-purrr::map(fs::dir_ls(".", glob = "*.R"), callr::rscript);
-purrr::map(fs::dir_ls(".", glob = "*.Rmd"), rmarkdown::render);
+purrr::map(fs::dir_ls(".", glob = "*.R"), callr::rscript)
+purrr::map(fs::dir_ls(".", glob = "*.Rmd"), rmarkdown::render)
 ```
 
 Use script and save output
