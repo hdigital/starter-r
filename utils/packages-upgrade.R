@@ -5,4 +5,4 @@ deps <- unique(renv::dependencies()[["Package"]])
 pak::pkg_install(deps, ask = FALSE, upgrade = TRUE)
 
 # create lock file of versions for all packages
-renv::snapshot()
+pak::lockfile_create(deps)
