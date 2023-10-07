@@ -5,8 +5,11 @@ library(purrr)
 
 ## Lock package versions ----
 
-# package versions project into 'renv.lock' (no renv-project used)
-renv::snapshot(prompt = FALSE)
+# get packages used in project folder
+deps <- unique(renv::dependencies()[["Package"]])
+
+# create lock file of versions for all packages
+pak::lockfile_create(deps)
 
 
 ## Format and check code ----
