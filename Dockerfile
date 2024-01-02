@@ -41,3 +41,6 @@ RUN install2.r markdown reticulate
 # RUN apt-get -y update && apt-get install -y --no-install-recommends curl gdebi-core
 # RUN curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb
 # RUN gdebi --non-interactive quarto-${QUARTO_VERSION}-linux-amd64.deb
+
+# Install Ubuntu package to suppress R plot warning
+RUN apt-get -y update && apt-get install -y --no-install-recommends libxt6
