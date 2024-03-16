@@ -25,21 +25,21 @@
     "href": "how-to.html",
     "title": "How-to 💡",
     "section": "",
-    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (! knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
+    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (!knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
   },
   {
     "objectID": "how-to.html#notebooks",
     "href": "how-to.html#notebooks",
     "title": "How-to 💡",
     "section": "",
-    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (! knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
+    "text": "conditional cell execution based on format\n\nsee conditional content to hide Markdown rendering\nsee ticket #63260 for future language-agnostic version\n\n\nif (knitr::is_html_output()) {\n  print(\"code block run\")\n}\n\n[1] \"code block run\"\n\n\n\nif (!knitr::is_html_output()) {\n  print(\"code block not run\")\n}"
   },
   {
     "objectID": "how-to.html#run-all",
     "href": "how-to.html#run-all",
     "title": "How-to 💡",
     "section": "Run all 🏃🏼‍♀️",
-    "text": "Run all 🏃🏼‍♀️\nRun all R scripts and render notebooks in current folder\n\npurrr::map(fs::dir_ls(\".\", glob = \"*.R\"), callr::rscript);\npurrr::map(fs::dir_ls(\".\", glob = \"*.Rmd\"), rmarkdown::render);\n\nUse script and save output\ncallr::rscript(\"z-run-all.R\", stdout=\"z-run-all.log\")  # R console\nRscript z-run-all.R &gt; \"z-run-all.log\"                  # terminal"
+    "text": "Run all 🏃🏼‍♀️\nRun all R scripts and render notebooks in current folder\n\npurrr::map(fs::dir_ls(\".\", glob = \"*.R\"), callr::rscript)\npurrr::map(fs::dir_ls(\".\", glob = \"*.Rmd\"), rmarkdown::render)\n\nUse script and save output\ncallr::rscript(\"z-run-all.R\", stdout=\"z-run-all.log\")  # R console\nRscript z-run-all.R &gt; \"z-run-all.log\"                  # terminal"
   },
   {
     "objectID": "index.html",
