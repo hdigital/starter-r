@@ -12,6 +12,10 @@
     }
   },
 
+  // Run commands after the container is started.
+  "postCreateCommand": "install2.r renv && Rscript -e 'renv::restore()'",
+  "postAttachCommand": "sudo rstudio-server start",
+
   // Forward ports for RStudio
   "forwardPorts": [8787],
   "portsAttributes": {
@@ -21,9 +25,6 @@
       "onAutoForward": "ignore"
     }
   },
-
-  // Run commands after the container is started.
-  "postAttachCommand": "sudo rstudio-server start",
 
   // Add VS Code extensions used in codespace
   "customizations": {
