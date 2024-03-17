@@ -3956,7 +3956,7 @@
       "target": "src/contrib/lattice_0.22-5.tar.gz",
       "platform": "x86_64-pc-linux-gnu",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-03-13 12:12:00 UTC; unix",
+      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-02-29 10:14:11 UTC; unix",
       "directpkg": false,
       "license": "GPL (>= 2)",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -3985,7 +3985,7 @@
       "target": "src/contrib/MASS_7.3-60.0.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-03-13 12:11:53 UTC; unix",
+      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-02-29 10:14:05 UTC; unix",
       "directpkg": false,
       "license": "GPL-2 | GPL-3",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -4014,7 +4014,7 @@
       "target": "src/contrib/Matrix_1.6-5.tar.gz",
       "platform": "x86_64-pc-linux-gnu",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-03-13 12:12:08 UTC; unix",
+      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-02-29 10:14:18 UTC; unix",
       "directpkg": false,
       "license": "GPL (>= 2) | file LICENCE",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -4043,7 +4043,7 @@
       "target": "src/contrib/mgcv_1.9-1.tar.gz",
       "platform": "x86_64-pc-linux-gnu",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-03-13 12:14:36 UTC; unix",
+      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-02-29 10:16:50 UTC; unix",
       "directpkg": false,
       "license": "GPL (>= 2)",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -4072,7 +4072,7 @@
       "target": "src/contrib/nlme_3.1-164.tar.gz",
       "platform": "x86_64-pc-linux-gnu",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-03-13 12:13:36 UTC; unix",
+      "built": "R 4.3.3; x86_64-pc-linux-gnu; 2024-02-29 10:15:46 UTC; unix",
       "directpkg": false,
       "license": "GPL (>= 2)",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -4101,7 +4101,7 @@
       "target": "src/contrib/codetools_0.2-19.tar.gz",
       "platform": "*",
       "rversion": "R 4.3.3",
-      "built": "R 4.3.3; ; 2024-03-13 12:14:21 UTC; unix",
+      "built": "R 4.3.3; ; 2024-02-29 10:16:31 UTC; unix",
       "directpkg": false,
       "license": "GPL",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
@@ -4110,5 +4110,15 @@
       "repotype": "cran",
       "sysreqs_packages": {}
     }
-  ]
+  ],
+  "sysreqs": {
+    "os": "linux",
+    "distribution": "ubuntu",
+    "version": "22.04",
+    "url": null,
+    "pre_install": ["apt-get -y update"],
+    "install_scripts": ["apt-get -y install libicu-dev pandoc make libcurl4-openssl-dev libssl-dev zlib1g-dev libfreetype6-dev libjpeg-dev libpng-dev libtiff-dev libfontconfig1-dev libfribidi-dev libharfbuzz-dev libxml2-dev git"],
+    "post_install": {},
+    "packages": ["libicu-dev", "pandoc", "make", "libcurl4-openssl-dev", "libssl-dev", "zlib1g-dev", "libfreetype6-dev", "libjpeg-dev", "libpng-dev", "libtiff-dev", "libfontconfig1-dev", "libfribidi-dev", "libharfbuzz-dev", "libxml2-dev", "git"]
+  }
 }
