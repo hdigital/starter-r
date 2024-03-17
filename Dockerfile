@@ -16,7 +16,6 @@ RUN gdebi --non-interactive quarto-linux-amd64.deb
 # RUN install2.r markdown reticulate
 # RUN quarto install tinytex
 
-
 # # OPTIONAL — select and customize per project
 #
 # # Install Python
@@ -24,11 +23,6 @@ RUN gdebi --non-interactive quarto-linux-amd64.deb
 #    python3 python3-dev python3-pip python-is-python3
 # RUN python -m pip install --upgrade pip
 # RUN python -m pip install jupyterlab
-#
-# # Install sf package (R)
-# RUN apt-get -y update && apt-get install -y --no-install-recommends \
-#    libudunits2-dev libgdal-dev libgeos-dev libproj-dev
-# RUN install2.r sf
 #
 # # Install Quarto with specified version
 # ARG QUARTO_VERSION=1.4.551
