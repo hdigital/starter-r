@@ -12,6 +12,12 @@ Rscript utils/run-all.R > "utils/run-all.log"                  # terminal
 
 ## Install · ⚙️
 
+### Local · 💻
+
+Install all R packages project with `utils/packages-update.R`
+
+### Docker · 🚢
+
 Use [Docker](https://docs.docker.com/get-docker/) to run RStudio in a browser with all dependencies.
 
 <http://localhost:8787/>
