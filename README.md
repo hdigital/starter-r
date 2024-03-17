@@ -14,7 +14,7 @@ Rscript utils/run-all.R > "utils/run-all.log"                  # terminal
 
 ### Local · 💻
 
-Install all R packages project with `utils/packages-install.R`
+Install all R packages project with `utils/packages-update.R`
 
 ### Docker · 🚢
 
