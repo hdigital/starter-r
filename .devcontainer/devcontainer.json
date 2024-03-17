@@ -13,7 +13,7 @@
   },
 
   // Run commands after the container is started.
-  "postCreateCommand": "install2.r renv && Rscript -e 'renv::restore()'",
+  "postCreateCommand": "install2.r pak && R -e 'pak::lockfile_install()'",
   "postAttachCommand": "sudo rstudio-server start",
 
   // Forward ports for RStudio
