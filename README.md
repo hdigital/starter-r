@@ -36,6 +36,14 @@ docker-compose up -d  # start container in detached mode
 docker-compose down   # shut down container
 ```
 
+## How-to · 💡
+
+Update R packages with latest R version in a Rocker container
+
+```sh
+./utils/update-rocker.sh
+```
+
 ## License · ⚖️
 
 [MIT](https://choosealicense.com/licenses/mit/) – Copyright (c) 2023 Holger Döring
