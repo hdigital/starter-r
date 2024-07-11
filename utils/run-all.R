@@ -3,14 +3,14 @@ library(fs)
 library(purrr)
 
 
-## Lock package versions ----
+## Use locked package versions ----
 
-# get packages used in project folder
-deps <- unique(renv::dependencies()[["Package"]])
-
-# create lock file of versions for all packages
-pak::lockfile_create(deps)
-
+if (file_exists("pkg.lock")) {
+  pak::lockfile_install()
+} else {
+  deps <- unique(renv::dependencies()[["Package"]])
+  pak::lockfile_create(deps)
+}
 
 ## Format and check code ----
 
