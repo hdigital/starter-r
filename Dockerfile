@@ -9,13 +9,6 @@ RUN install2.r pak
 COPY pkg.lock .
 RUN R -e 'pak::lockfile_install()'
 
-# Install Quarto
-RUN apt-get -y update && apt-get install -y --no-install-recommends curl gdebi-core
-RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
-RUN gdebi --non-interactive quarto-linux-amd64.deb
-# RUN install2.r markdown reticulate
-# RUN quarto install tinytex
-
 # # OPTIONAL — select and customize per project
 #
 # # Install Python
@@ -24,7 +17,7 @@ RUN gdebi --non-interactive quarto-linux-amd64.deb
 # RUN python -m pip install --upgrade pip
 # RUN python -m pip install jupyterlab
 #
-# # Install Quarto with specified version
+# # Install Quarto CLI with specified version
 # ARG QUARTO_VERSION=1.4.551
 # RUN apt-get -y update && apt-get install -y --no-install-recommends curl gdebi-core
 # RUN curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb
