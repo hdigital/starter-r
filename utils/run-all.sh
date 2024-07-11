@@ -6,7 +6,7 @@ set -e
 
 docker compose up -d
 
-docker exec starter-r-rocker-1 \
+docker exec rocker-starter \
   /bin/bash -c \
   "cd /home/rstudio/ && \
    Rscript utils/run-all.R"

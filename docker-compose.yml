@@ -1,6 +1,7 @@
 services:
   rocker:
     build: .
+    container_name: rocker-starter
     environment:
       - DISABLE_AUTH=true
     ports:
