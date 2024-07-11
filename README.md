@@ -7,7 +7,11 @@ callr::rscript("utils/run-all.R", stdout="utils/run-all.log")  # R console
 ```
 
 ```sh
-Rscript utils/run-all.R > "utils/run-all.log"                  # terminal
+Rscript utils/run-all.R > "utils/run-all.log"                  # terminal (local)
+```
+
+```sh
+./utils/run-all.sh                                             # terminal (Docker)
 ```
 
 ## Install · ⚙️
