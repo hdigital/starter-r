@@ -116,3 +116,23 @@ cars |>
   select(car, mpg, hp, cyl, gear) |>
   reactable(searchable = TRUE, striped = TRUE)
 ```
+
+
+## References
+
+```{r, eval=FALSE}
+library(httr2)
+
+get_doi_reference <- function(doi) {
+  request(paste0("https://doi.org/", doi)) |>
+    req_headers("Accept" = "text/x-bibliography") |>
+    req_perform() |>
+    resp_body_string()
+}
+
+references_doi <- c(
+  "10.21105/joss.01686"
+)
+
+references <- map_chr(references_doi, get_doi_reference)
+```
