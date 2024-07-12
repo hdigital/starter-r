@@ -11,7 +11,7 @@ Rscript utils/run-all.R > "utils/run-all.log"                  # terminal (local
 ```
 
 ```sh
-./utils/run-all.sh                                             # terminal (Docker)
+./utils/run-all-docker.sh                                             # terminal (Docker)
 ```
 
 ## Install · ⚙️
