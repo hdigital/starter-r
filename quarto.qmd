@@ -1,6 +1,6 @@
 ---
 title: "HD Quarto template R"
-author: "Holger Doering --- holger.doering@gesis.org"
+author: "Holger Doering"
 date: today
 execute:
   cache: true
