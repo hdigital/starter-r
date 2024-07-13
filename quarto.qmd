@@ -40,6 +40,10 @@ round_numeric_variables <- function(data, digits = 0) {
 }
 ```
 
+```{r, eval=FALSE, include=FALSE}
+callr::rscript("data-raw.R")
+```
+
 ---
 
 <https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/cars.html>
