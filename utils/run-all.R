@@ -33,7 +33,7 @@ rmd_scripts <- dir_ls(".", glob = "*.Rmd", recurse = 1)
 map(rmd_scripts, rmarkdown::render)
 
 # render Quarto notebooks in project folder
-system("quarto render *.qmd")
+system("quarto render --cache-refresh *.qmd")
 
 # remove Rplots created with print()
 if (file_exists("Rplots.pdf")) {
