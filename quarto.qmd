@@ -3,7 +3,7 @@ title: "HD Quarto template R"
 author: "Holger Doering --- holger.doering@gesis.org"
 date: today
 execute:
-  cache: false
+  cache: true
   messages: true
   warning: false
 format:
