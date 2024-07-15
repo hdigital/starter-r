@@ -64,7 +64,7 @@ summary(cars)
 ```
 
 
-```{r skim}
+```{r skim-data}
 cars |> skim()
 ```
 
@@ -99,7 +99,7 @@ pl1 + pl2
 
 ## Linear model
 
-```{r}
+```{r model}
 m1 <- lm(mpg ~ log(hp) + gear, data = cars)
 
 tidy(m1) |> kable(digits = 2)
@@ -120,7 +120,7 @@ cars |>
 
 ## References
 
-```{r, eval=FALSE}
+```{r reference, eval=FALSE}
 library(httr2)
 
 get_doi_reference <- function(doi) {
