@@ -12,7 +12,7 @@ docker run \
 
 docker exec rocker_latest /bin/bash -c \
   "cd /home/rstudio/ && \
-   Rscript utils/packages-update.R && \
+   Rscript utils/r-packages-update.R && \
    Rscript utils/run-all.R"
 
 printf "\n\n"
