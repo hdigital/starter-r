@@ -94,13 +94,15 @@ pl2 <- ggplot(cars, aes(x = hp, y = mpg)) +
   geom_point(alpha = 0.5) +
   geom_smooth(se = FALSE)
 
-pl1 + pl2
+pl1 + pl2 + plot_layout(widths = c(2, 1))
 ```
 
 
 ## Linear model
 
 ```{r model}
+#| fig-height: 5
+
 m1 <- lm(mpg ~ log(hp) + gear, data = cars)
 
 tidy(m1) |> kable(digits = 2)
