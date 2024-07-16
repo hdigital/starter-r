@@ -18,7 +18,7 @@ Rscript utils/run-all.R > "utils/run-all.log"                  # terminal (local
 
 ### Local · 💻
 
-Install all R packages project with `utils/packages-update.R`
+Install all R packages project with `utils/r-packages-update.R`
 
 ### Codespace · 🛰️
 
