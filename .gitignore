@@ -3,6 +3,11 @@ source__*
 tmp__*
 z-tmp__*
 
+# Data source files
+data_raw/
+!data_raw/dt_source.csv
+
+
 # Local settings files
 .vscode/settings.json
 
