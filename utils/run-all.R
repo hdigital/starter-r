@@ -5,12 +5,12 @@ library(purrr)
 
 ## Use locked package versions ----
 
-if (file_exists("pkg.lock")) {
-  pak::lockfile_install()
-} else {
+if (!file_exists("pkg.lock")) {
   deps <- unique(renv::dependencies()[["Package"]])
   pak::lockfile_create(deps)
 }
+pak::lockfile_install()
+
 
 ## Format and check code ----
 
