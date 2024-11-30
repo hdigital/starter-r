@@ -7,11 +7,11 @@ callr::rscript("utils/run-all.R", stdout="utils/run-all.log")  # R console
 ```
 
 ```sh
-Rscript utils/run-all.R > "utils/run-all.log"                  # terminal (local)
+Rscript utils/run-all.R > "utils/run-all.log"  # terminal (local)
 ```
 
 ```sh
-./utils/run-all-docker.sh                                             # terminal (Docker)
+./utils/run-all-docker.sh  # terminal (Docker)
 ```
 
 ## Install · ⚙️
@@ -37,7 +37,7 @@ Use [Docker](https://docs.docker.com/get-docker/) to run RStudio in a browser wi
 ```sh
 docker-compose up -d  # start container in detached mode
 
-docker-compose down   # shut down container
+docker-compose down  # shut down container
 ```
 
 ## How-to · 💡
