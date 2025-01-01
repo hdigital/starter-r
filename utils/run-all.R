@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 library(callr)
 library(fs)
 library(purrr)
