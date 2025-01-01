@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 library(pak)
 
 # install 'pak' to use modern package installer
