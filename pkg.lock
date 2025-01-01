@@ -100,7 +100,7 @@
     {
       "ref": "bit",
       "package": "bit",
-      "version": "4.5.0",
+      "version": "4.5.0.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -113,10 +113,10 @@
         "RemoteRef": "bit",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "4.5.0"
+        "RemoteSha": "4.5.0.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit_4.5.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/bit_4.5.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit_4.5.0.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/bit_4.5.0.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
@@ -461,7 +461,7 @@
     {
       "ref": "data.table",
       "package": "data.table",
-      "version": "1.16.2",
+      "version": "1.16.4",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -474,10 +474,10 @@
         "RemoteRef": "data.table",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.16.2"
+        "RemoteSha": "1.16.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.table_1.16.2.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/data.table_1.16.2.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.table_1.16.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/data.table_1.16.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
@@ -1342,7 +1342,7 @@
     {
       "ref": "lubridate",
       "package": "lubridate",
-      "version": "1.9.3",
+      "version": "1.9.4",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -1355,10 +1355,10 @@
         "RemoteRef": "lubridate",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.9.3"
+        "RemoteSha": "1.9.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/lubridate_1.9.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/lubridate_1.9.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
@@ -1528,7 +1528,7 @@
     {
       "ref": "openssl",
       "package": "openssl",
-      "version": "2.2.2",
+      "version": "2.3.0",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -1541,10 +1541,10 @@
         "RemoteRef": "openssl",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.2.2"
+        "RemoteSha": "2.3.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/openssl_2.2.2.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/openssl_2.2.2.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/openssl_2.3.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/openssl_2.3.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
@@ -1566,11 +1566,11 @@
     {
       "ref": "pillar",
       "package": "pillar",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "type": "standard",
       "direct": false,
       "binary": true,
-      "dependencies": ["cli", "fansi", "glue", "lifecycle", "rlang", "utf8", "vctrs"],
+      "dependencies": ["cli", "glue", "lifecycle", "rlang", "utf8", "vctrs"],
       "vignettes": false,
       "needscompilation": false,
       "metadata": {
@@ -1579,10 +1579,10 @@
         "RemoteRef": "pillar",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.9.0"
+        "RemoteSha": "1.10.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pillar_1.9.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/pillar_1.9.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pillar_1.10.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/pillar_1.10.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
@@ -2307,7 +2307,7 @@
     {
       "ref": "textshaping",
       "package": "textshaping",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2320,10 +2320,10 @@
         "RemoteRef": "textshaping",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "0.4.0"
+        "RemoteSha": "0.4.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshaping_0.4.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/textshaping_0.4.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshaping_0.4.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.4/textshaping_0.4.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.4",
       "directpkg": false,
