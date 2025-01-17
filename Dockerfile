@@ -4,10 +4,10 @@ FROM rocker/tidyverse:4.4.2
 
 WORKDIR /home/rstudio
 
-# Install R packages with 'pak'
-RUN install2.r pak
-COPY pkg.lock .
-RUN R -e 'pak::lockfile_install()'
+# Install R packages with 'pak' (use lock file or update)
+RUN install2.r pak renv
+COPY utils/r-packages-install.R .
+RUN Rscript r-packages-install.R
 
 # # OPTIONAL — select and customize per project
 #
