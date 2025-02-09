@@ -5,13 +5,7 @@ library(fs)
 library(purrr)
 
 
-## Use locked package versions ----
-
-if (!file_exists("pkg.lock")) {
-  deps <- unique(renv::dependencies()[["Package"]])
-  pak::lockfile_create(deps)
-}
-pak::lockfile_install()
+source("./utils/r-packages-install.R")
 
 
 ## Format and check code ----
