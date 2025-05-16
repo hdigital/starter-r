@@ -40,7 +40,7 @@ round_numeric_variables <- function(data, digits = 0) {
 }
 ```
 
-```{r}
+```{r data-raw}
 #| eval: FALSE
 #| include: FALSE
 
