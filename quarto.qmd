@@ -40,7 +40,10 @@ round_numeric_variables <- function(data, digits = 0) {
 }
 ```
 
-```{r, eval=FALSE, include=FALSE}
+```{r data-raw}
+#| eval: FALSE
+#| include: FALSE
+
 callr::rscript("data-raw.R")
 ```
 
@@ -84,7 +87,9 @@ cars_skim <-
 
 ## Visualization
 
-```{r figure, message=FALSE}
+```{r figure}
+#| message=FALSE
+
 pl1 <- ggplot(cars, aes(
   x = hp,
   y = mpg,
