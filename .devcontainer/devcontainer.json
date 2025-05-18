@@ -33,7 +33,8 @@
         "github.codespaces",
         "mechatroner.rainbow-csv",
         "quarto.quarto",
-        "reditorsupport.r"
+        "reditorsupport.r",
+        "yzhang.markdown-all-in-one"
       ]
     }
   }

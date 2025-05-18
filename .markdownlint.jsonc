@@ -1,0 +1,11 @@
+// Configure Markdown formatting rules for markdownlint (VS-Code extension).
+// https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc
+{
+  "default": true,
+  // Allow duplication for headings with different parents
+  "MD024": {
+    "siblings_only": true
+  }
+  // Disable rules in file: <!-- markdownlint-disable -->
+  // Enable rules in file:  <!-- markdownlint-enable -->
+}
