@@ -12,7 +12,7 @@ docker run \
 
 docker exec rocker_latest /bin/bash -c \
   "cd /home/rstudio/ && \
-   install2.r pak && \
+   install2.r pak renv && \
    Rscript utils/r-packages-update.R && \
    Rscript utils/run-all.R"
 
