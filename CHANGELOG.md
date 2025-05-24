@@ -9,7 +9,7 @@ and version numbers follow
 
 ### Added
 
-- _for new features_
+- Document version changes in a 'changelog' ([#16](https://github.com/hdigital/starter-r/pull/16))
 
 ### Changed
 
