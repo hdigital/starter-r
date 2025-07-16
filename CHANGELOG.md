@@ -2,7 +2,7 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and version numbers follow
-[R releases](https://cran.r-project.org/bin/windows/base/old/) (e.g. v4.3)
+[R releases](https://cran.r-project.org/bin/windows/base/old/) (e.g., v4.3)
 — see [tags](https://github.com/hdigital/starter-r/tags).
 
 ## [Unreleased] — YYYY-MM-DD
@@ -21,6 +21,7 @@ and version numbers follow
 
 ### Fixed
 
+- _for bug fixes_
 - Fix minor issues
 
 ## [v4.5] — 2025-05-18
@@ -88,4 +89,5 @@ and version numbers follow
 
 ### Fixed
 
+- _for bug fixes_
 - Fix minor issues
