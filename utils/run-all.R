@@ -41,5 +41,5 @@ if (file_exists("Rplots.pdf")) {
 
 # add session info (load all project packages)
 conflicted::conflicts_prefer(callr::run)
-map_lgl(dplyr::pull(renv::dependencies(), Package), require)
+map_lgl(unique(pak::scan_deps()$package), require, character.only = TRUE)
 sessionInfo()
