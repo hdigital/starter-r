@@ -5,7 +5,7 @@ FROM rocker/tidyverse:4.5.0
 WORKDIR /home/rstudio
 
 # Install R packages with 'pak' (use lock file or update)
-RUN install2.r pak renv
+RUN install2.r pak
 COPY utils/r-packages-install.R .
 RUN Rscript r-packages-install.R
 

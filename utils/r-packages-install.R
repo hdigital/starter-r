@@ -2,7 +2,7 @@
 
 # install 'pak' to use modern package installer
 if (!"pak" %in% installed.packages()) {
-  install.packages(c("pak", "renv"), repos = getOption("repos")[[1]])
+  install.packages(c("pak"), repos = getOption("repos")[[1]])
 }
 
 library(pak)

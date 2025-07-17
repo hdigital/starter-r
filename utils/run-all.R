@@ -11,7 +11,7 @@ source("./utils/r-packages-install.R")
 ## Format and check code ----
 
 # format project code with tidyverse style guide
-styler::style_dir(exclude_dirs = c(".cache", "renv"))
+styler::style_dir(exclude_dirs = c(".cache"))
 
 # check code style, syntax errors and semantic issues
 lintr::lint_dir()
