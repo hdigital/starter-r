@@ -2,17 +2,18 @@
 
 # install 'pak' to use modern package installer
 if (!"pak" %in% installed.packages()) {
-  install.packages(c("pak", "renv"), repos = getOption("repos")[[1]])
+  install.packages(c("pak"), repos = getOption("repos")[[1]])
 }
 
 library(pak)
 
 # get packages used in project folder
-get_dependencies <- \() unique(renv::dependencies()[["Package"]])
+deps <- scan_deps()
+deps_pkgs <- unique(deps$package)
 
 # pin versions of project packages (if not pinned)
 if (!file.exists("pkg.lock")) {
-  lockfile_create(get_dependencies())
+  lockfile_create(deps_pkgs)
 }
 
 # install (or update) project packages
@@ -21,7 +22,7 @@ tryCatch(
   error = function(cond) {
     message("Lockfile install failed:")
     message(conditionMessage(cond))
-    lockfile_create(get_dependencies())
+    lockfile_create(deps_pkgs)
     lockfile_install()
     NA
   }
