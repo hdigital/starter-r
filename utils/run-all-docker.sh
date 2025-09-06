@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Run and render all project R scripts in Rocker container
+# Execute complete R project workflow using Docker containers
+# Runs all R scripts and renders notebooks in a Rocker environment
 
 set -e
 
