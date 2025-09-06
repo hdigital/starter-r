@@ -1,5 +1,8 @@
 #!/usr/bin/env Rscript
 
+# Update all project packages to their latest versions
+# Scans dependencies and updates both packages and lockfile with 'pak'
+
 library(pak)
 
 # get and install packages used in project folder

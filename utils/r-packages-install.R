@@ -1,5 +1,8 @@
 #!/usr/bin/env Rscript
 
+# Install project dependencies with 'pak' package manager
+# Scans project files for required packages and creates/maintains a lockfile
+
 # install 'pak' to use modern package installer
 if (!"pak" %in% installed.packages()) {
   install.packages(c("pak"), repos = getOption("repos")[[1]])

@@ -1,5 +1,8 @@
 #!/usr/bin/env Rscript
 
+# Main workflow script to run all project tasks
+# Installs packages, formats code, runs linting, and executes R scripts/notebooks
+
 library(callr)
 library(fs)
 library(purrr)
