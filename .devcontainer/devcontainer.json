@@ -13,7 +13,7 @@
     }
   },
   // Run commands after the container is started.
-  "postCreateCommand": "install2.r pak renv",
+  "postCreateCommand": "install2.r pak",
   "postAttachCommand": "sudo rstudio-server start",
   // Forward ports for RStudio
   "forwardPorts": [

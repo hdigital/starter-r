@@ -13,7 +13,7 @@ and version numbers follow
 
 ### Changed
 
-- _for changes in functionality_
+- Use 'pak' to detect package dependencies ([#17](https://github.com/hdigital/starter-r/pull/17))
 
 ### Removed
 
