@@ -7,8 +7,8 @@ WORKDIR /home/rstudio
 # Install R packages with 'pak' (use lock file or update)
 RUN install2.r pak
 COPY pkg.lock .
-COPY utils/r-rocker-install.R .
-RUN Rscript r-rocker-install.R
+COPY utils/r-rocker-build.R .
+RUN Rscript r-rocker-build.R
 
 # # OPTIONAL — select and customize per project
 #

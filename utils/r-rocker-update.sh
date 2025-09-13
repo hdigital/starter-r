@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Update packages for latest R version Rocker
+# Update R packages to latest versions in containerized environment
+# Creates and manages Rocker container for package updates
 
 set -e
 
