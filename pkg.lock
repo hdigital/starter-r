@@ -1,7 +1,7 @@
 {
   "lockfile_version": 1,
-  "os": "Ubuntu 24.04.2 LTS",
-  "r_version": "R version 4.5.1 (2025-06-13)",
+  "os": "Ubuntu 24.04.3 LTS",
+  "r_version": "R version 4.5.2 (2025-10-31)",
   "platform": "x86_64-pc-linux-gnu",
   "packages": [
     {
@@ -492,7 +492,7 @@
     {
       "ref": "dbplyr",
       "package": "dbplyr",
-      "version": "2.5.0",
+      "version": "2.5.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -505,10 +505,10 @@
         "RemoteRef": "dbplyr",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.5.0"
+        "RemoteSha": "2.5.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dbplyr_2.5.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/dbplyr_2.5.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dbplyr_2.5.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/dbplyr_2.5.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -554,7 +554,7 @@
     {
       "ref": "dtplyr",
       "package": "dtplyr",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -567,10 +567,10 @@
         "RemoteRef": "dtplyr",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.3.1"
+        "RemoteSha": "1.3.2"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dtplyr_1.3.1.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/dtplyr_1.3.1.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dtplyr_1.3.2.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/dtplyr_1.3.2.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -709,7 +709,7 @@
     {
       "ref": "forcats",
       "package": "forcats",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -722,10 +722,10 @@
         "RemoteRef": "forcats",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.0.0"
+        "RemoteSha": "1.0.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/forcats_1.0.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/forcats_1.0.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/forcats_1.0.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/forcats_1.0.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -833,7 +833,7 @@
     {
       "ref": "googledrive",
       "package": "googledrive",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -846,10 +846,10 @@
         "RemoteRef": "googledrive",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.1.1"
+        "RemoteSha": "2.1.2"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/googledrive_2.1.1.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/googledrive_2.1.1.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/googledrive_2.1.2.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/googledrive_2.1.2.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -1001,11 +1001,11 @@
     {
       "ref": "hms",
       "package": "hms",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "type": "standard",
       "direct": false,
       "binary": true,
-      "dependencies": ["lifecycle", "pkgconfig", "rlang", "vctrs"],
+      "dependencies": ["cli", "lifecycle", "pkgconfig", "rlang", "vctrs"],
       "vignettes": false,
       "needscompilation": false,
       "metadata": {
@@ -1014,10 +1014,10 @@
         "RemoteRef": "hms",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.1.3"
+        "RemoteSha": "1.1.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hms_1.1.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/hms_1.1.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hms_1.1.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/hms_1.1.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -1311,7 +1311,7 @@
     {
       "ref": "magrittr",
       "package": "magrittr",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -1324,10 +1324,10 @@
         "RemoteRef": "magrittr",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.0.3"
+        "RemoteSha": "2.0.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/magrittr_2.0.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/magrittr_2.0.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/magrittr_2.0.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/magrittr_2.0.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -1435,7 +1435,7 @@
     {
       "ref": "openssl",
       "package": "openssl",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -1448,10 +1448,10 @@
         "RemoteRef": "openssl",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.3.3"
+        "RemoteSha": "2.3.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/openssl_2.3.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/openssl_2.3.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/openssl_2.3.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/openssl_2.3.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -1473,7 +1473,7 @@
     {
       "ref": "pillar",
       "package": "pillar",
-      "version": "1.11.0",
+      "version": "1.11.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -1486,10 +1486,10 @@
         "RemoteRef": "pillar",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.11.0"
+        "RemoteSha": "1.11.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pillar_1.11.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/pillar_1.11.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pillar_1.11.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/pillar_1.11.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2005,6 +2005,37 @@
       "sysreqs_packages": {}
     },
     {
+      "ref": "S7",
+      "package": "S7",
+      "version": "0.2.0",
+      "type": "standard",
+      "direct": false,
+      "binary": true,
+      "dependencies": [],
+      "vignettes": false,
+      "needscompilation": false,
+      "metadata": {
+        "RemoteType": "standard",
+        "RemotePkgRef": "S7",
+        "RemoteRef": "S7",
+        "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
+        "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
+        "RemoteSha": "0.2.0"
+      },
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/S7_0.2.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/S7_0.2.0.tar.gz",
+      "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
+      "rversion": "4.5",
+      "directpkg": false,
+      "license": "MIT + file LICENSE",
+      "dep_types": ["Depends", "Imports", "LinkingTo"],
+      "params": [],
+      "install_args": "",
+      "repotype": "cran",
+      "sysreqs": "",
+      "sysreqs_packages": {}
+    },
+    {
       "ref": "sass",
       "package": "sass",
       "version": "0.4.10",
@@ -2176,7 +2207,7 @@
     {
       "ref": "systemfonts",
       "package": "systemfonts",
-      "version": "1.2.3",
+      "version": "1.3.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2189,10 +2220,10 @@
         "RemoteRef": "systemfonts",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.2.3"
+        "RemoteSha": "1.3.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/systemfonts_1.2.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/systemfonts_1.2.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/systemfonts_1.3.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/systemfonts_1.3.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2220,7 +2251,7 @@
     {
       "ref": "textshaping",
       "package": "textshaping",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2233,10 +2264,10 @@
         "RemoteRef": "textshaping",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.0.3"
+        "RemoteSha": "1.0.4"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshaping_1.0.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/textshaping_1.0.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshaping_1.0.4.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/textshaping_1.0.4.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2611,7 +2642,7 @@
     {
       "ref": "vroom",
       "package": "vroom",
-      "version": "1.6.5",
+      "version": "1.6.6",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2624,10 +2655,10 @@
         "RemoteRef": "vroom",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.6.5"
+        "RemoteSha": "1.6.6"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vroom_1.6.5.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/vroom_1.6.5.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vroom_1.6.6.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/vroom_1.6.6.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2673,7 +2704,7 @@
     {
       "ref": "xfun",
       "package": "xfun",
-      "version": "0.53",
+      "version": "0.54",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2686,10 +2717,10 @@
         "RemoteRef": "xfun",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "0.53"
+        "RemoteSha": "0.54"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xfun_0.53.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/xfun_0.53.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xfun_0.54.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/xfun_0.54.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2704,7 +2735,7 @@
     {
       "ref": "xml2",
       "package": "xml2",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2717,10 +2748,10 @@
         "RemoteRef": "xml2",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.4.0"
+        "RemoteSha": "1.4.1"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xml2_1.4.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/xml2_1.4.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xml2_1.4.1.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/xml2_1.4.1.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -2804,11 +2835,11 @@
     {
       "ref": "ggplot2",
       "package": "ggplot2",
-      "version": "3.5.2",
+      "version": "4.0.0",
       "type": "standard",
       "direct": true,
       "binary": true,
-      "dependencies": ["cli", "glue", "gtable", "isoband", "lifecycle", "MASS", "mgcv", "rlang", "scales", "tibble", "vctrs", "withr"],
+      "dependencies": ["cli", "gtable", "isoband", "lifecycle", "rlang", "S7", "scales", "vctrs", "withr"],
       "vignettes": false,
       "needscompilation": false,
       "metadata": {
@@ -2817,10 +2848,10 @@
         "RemoteRef": "ggplot2",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "3.5.2"
+        "RemoteSha": "4.0.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggplot2_3.5.2.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/ggplot2_3.5.2.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggplot2_4.0.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/ggplot2_4.0.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -2935,7 +2966,7 @@
     {
       "ref": "broom",
       "package": "broom",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "type": "standard",
       "direct": true,
       "binary": true,
@@ -2948,10 +2979,10 @@
         "RemoteRef": "broom",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.0.9"
+        "RemoteSha": "1.0.10"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/broom_1.0.9.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/broom_1.0.9.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/broom_1.0.10.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/broom_1.0.10.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -2966,7 +2997,7 @@
     {
       "ref": "datawizard",
       "package": "datawizard",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "type": "standard",
       "direct": false,
       "binary": true,
@@ -2979,10 +3010,10 @@
         "RemoteRef": "datawizard",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.2.0"
+        "RemoteSha": "1.3.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datawizard_1.2.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/datawizard_1.2.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datawizard_1.3.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/datawizard_1.3.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": false,
@@ -3276,7 +3307,7 @@
     {
       "ref": "rmarkdown",
       "package": "rmarkdown",
-      "version": "2.29",
+      "version": "2.30",
       "type": "standard",
       "direct": true,
       "binary": true,
@@ -3289,10 +3320,10 @@
         "RemoteRef": "rmarkdown",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "2.29"
+        "RemoteSha": "2.30"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rmarkdown_2.29.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/rmarkdown_2.29.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rmarkdown_2.30.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/rmarkdown_2.30.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -3314,7 +3345,7 @@
     {
       "ref": "purrr",
       "package": "purrr",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "type": "standard",
       "direct": true,
       "binary": true,
@@ -3327,10 +3358,10 @@
         "RemoteRef": "purrr",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.1.0"
+        "RemoteSha": "1.2.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/purrr_1.1.0.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/purrr_1.1.0.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/purrr_1.2.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/purrr_1.2.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -3569,7 +3600,7 @@
     {
       "ref": "styler",
       "package": "styler",
-      "version": "1.10.3",
+      "version": "1.11.0",
       "type": "standard",
       "direct": true,
       "binary": true,
@@ -3582,10 +3613,10 @@
         "RemoteRef": "styler",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.10.3"
+        "RemoteSha": "1.11.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/styler_1.10.3.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/styler_1.10.3.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/styler_1.11.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/styler_1.11.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -3724,7 +3755,7 @@
     {
       "ref": "stringr",
       "package": "stringr",
-      "version": "1.5.1",
+      "version": "1.6.0",
       "type": "standard",
       "direct": true,
       "binary": true,
@@ -3737,10 +3768,10 @@
         "RemoteRef": "stringr",
         "RemoteRepos": "https://p3m.dev/cran/__linux__/noble/latest",
         "RemotePkgPlatform": "x86_64-pc-linux-gnu-ubuntu-24.04",
-        "RemoteSha": "1.5.1"
+        "RemoteSha": "1.6.0"
       },
-      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.5.1.tar.gz"],
-      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/stringr_1.5.1.tar.gz",
+      "sources": ["https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.6.0.tar.gz"],
+      "target": "src/contrib/x86_64-pc-linux-gnu-ubuntu-24.04/4.5/stringr_1.6.0.tar.gz",
       "platform": "x86_64-pc-linux-gnu-ubuntu-24.04",
       "rversion": "4.5",
       "directpkg": true,
@@ -3750,151 +3781,6 @@
       "install_args": "",
       "repotype": "cran",
       "sysreqs": "",
-      "sysreqs_packages": {}
-    },
-    {
-      "ref": "installed::/usr/local/lib/R/library/lattice",
-      "package": "lattice",
-      "version": "0.22-7",
-      "type": "installed",
-      "direct": false,
-      "binary": true,
-      "dependencies": [],
-      "vignettes": false,
-      "needscompilation": true,
-      "metadata": {
-        "RemoteType": "installed",
-        "RemotePkgRef": "installed::/usr/local/lib/R/library/lattice",
-        "RemotePkgPlatform": "x86_64-pc-linux-gnu",
-        "RemoteSha": "0.22-7"
-      },
-      "sources": [],
-      "target": "src/contrib/lattice_0.22-7.tar.gz",
-      "platform": "x86_64-pc-linux-gnu",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-13 10:12:19 UTC; unix",
-      "directpkg": false,
-      "license": "GPL (>= 2)",
-      "dep_types": ["Depends", "Imports", "LinkingTo"],
-      "params": [],
-      "install_args": "",
-      "repotype": "cran",
-      "sysreqs_packages": {}
-    },
-    {
-      "ref": "installed::/usr/local/lib/R/library/MASS",
-      "package": "MASS",
-      "version": "7.3-65",
-      "type": "installed",
-      "direct": false,
-      "binary": true,
-      "dependencies": [],
-      "vignettes": false,
-      "needscompilation": true,
-      "metadata": {
-        "RemoteType": "installed",
-        "RemotePkgRef": "installed::/usr/local/lib/R/library/MASS",
-        "RemotePkgPlatform": "x86_64-pc-linux-gnu",
-        "RemoteSha": "7.3-65"
-      },
-      "sources": [],
-      "target": "src/contrib/MASS_7.3-65.tar.gz",
-      "platform": "x86_64-pc-linux-gnu",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-13 10:12:14 UTC; unix",
-      "directpkg": false,
-      "license": "GPL-2 | GPL-3",
-      "dep_types": ["Depends", "Imports", "LinkingTo"],
-      "params": [],
-      "install_args": "",
-      "repotype": "cran",
-      "sysreqs_packages": {}
-    },
-    {
-      "ref": "installed::/usr/local/lib/R/library/Matrix",
-      "package": "Matrix",
-      "version": "1.7-3",
-      "type": "installed",
-      "direct": false,
-      "binary": true,
-      "dependencies": ["lattice"],
-      "vignettes": false,
-      "needscompilation": true,
-      "metadata": {
-        "RemoteType": "installed",
-        "RemotePkgRef": "installed::/usr/local/lib/R/library/Matrix",
-        "RemotePkgPlatform": "x86_64-pc-linux-gnu",
-        "RemoteSha": "1.7-3"
-      },
-      "sources": [],
-      "target": "src/contrib/Matrix_1.7-3.tar.gz",
-      "platform": "x86_64-pc-linux-gnu",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-13 10:12:29 UTC; unix",
-      "directpkg": false,
-      "license": "GPL (>= 2) | file LICENCE",
-      "dep_types": ["Depends", "Imports", "LinkingTo"],
-      "params": [],
-      "install_args": "",
-      "repotype": "cran",
-      "sysreqs_packages": {}
-    },
-    {
-      "ref": "installed::/usr/local/lib/R/library/mgcv",
-      "package": "mgcv",
-      "version": "1.9-3",
-      "type": "installed",
-      "direct": false,
-      "binary": true,
-      "dependencies": ["nlme", "Matrix"],
-      "vignettes": false,
-      "needscompilation": true,
-      "metadata": {
-        "RemoteType": "installed",
-        "RemotePkgRef": "installed::/usr/local/lib/R/library/mgcv",
-        "RemotePkgPlatform": "x86_64-pc-linux-gnu",
-        "RemoteSha": "1.9-3"
-      },
-      "sources": [],
-      "target": "src/contrib/mgcv_1.9-3.tar.gz",
-      "platform": "x86_64-pc-linux-gnu",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-13 10:15:47 UTC; unix",
-      "directpkg": false,
-      "license": "GPL (>= 2)",
-      "dep_types": ["Depends", "Imports", "LinkingTo"],
-      "params": [],
-      "install_args": "",
-      "repotype": "cran",
-      "sysreqs_packages": {}
-    },
-    {
-      "ref": "installed::/usr/local/lib/R/library/nlme",
-      "package": "nlme",
-      "version": "3.1-168",
-      "type": "installed",
-      "direct": false,
-      "binary": true,
-      "dependencies": ["lattice"],
-      "vignettes": false,
-      "needscompilation": true,
-      "metadata": {
-        "RemoteType": "installed",
-        "RemotePkgRef": "installed::/usr/local/lib/R/library/nlme",
-        "RemotePkgPlatform": "x86_64-pc-linux-gnu",
-        "RemoteSha": "3.1-168"
-      },
-      "sources": [],
-      "target": "src/contrib/nlme_3.1-168.tar.gz",
-      "platform": "x86_64-pc-linux-gnu",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-13 10:14:48 UTC; unix",
-      "directpkg": false,
-      "license": "GPL (>= 2)",
-      "dep_types": ["Depends", "Imports", "LinkingTo"],
-      "params": [],
-      "install_args": "",
-      "repotype": "cran",
       "sysreqs_packages": {}
     },
     {
@@ -3916,8 +3802,8 @@
       "sources": [],
       "target": "src/contrib/codetools_0.2-20.tar.gz",
       "platform": "*",
-      "rversion": "R 4.5.1",
-      "built": "R 4.5.1; ; 2025-06-13 10:15:32 UTC; unix",
+      "rversion": "R 4.5.2",
+      "built": "R 4.5.2; ; 2025-10-31 11:44:07 UTC; unix",
       "directpkg": false,
       "license": "GPL",
       "dep_types": ["Depends", "Imports", "LinkingTo"],
