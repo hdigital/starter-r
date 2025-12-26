@@ -1,0 +1,14 @@
+# Configuration for 'typos' spell checker
+# https://github.com/crate-ci/typos/blob/master/docs/reference.md
+
+[files]
+extend-exclude = [
+    "*.html",
+    "quarto_cache/**",
+    "quarto_files/**",
+    "**/_site/**"]
+
+[default.extend-words]
+# 'tidyverse' terms with British English spellings
+colour = "colour"       # ggplot2
+summarise = "summarise" # dplyr

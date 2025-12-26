@@ -13,12 +13,13 @@
     }
   },
   // Run commands after the container is started.
-  "postCreateCommand": "install2.r pak",
+  "postCreateCommand": {
+    "r-packages": "install2.r pak",
+    "uv-install": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+  },
   "postAttachCommand": "sudo rstudio-server start",
   // Forward ports for RStudio
-  "forwardPorts": [
-    8787
-  ],
+  "forwardPorts": [8787],
   "portsAttributes": {
     "8787": {
       "label": "Rstudio",
