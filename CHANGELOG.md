@@ -10,6 +10,7 @@ and version numbers follow
 ### Added
 
 - Document version changes in a 'changelog' ([#16](https://github.com/hdigital/starter-r/pull/16))
+- Add Air code formatter ([#20](https://github.com/hdigital/starter-r/pull/20))
 
 ### Changed
 
