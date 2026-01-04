@@ -15,7 +15,8 @@
   // Run commands after the container is started.
   "postCreateCommand": {
     "r-packages": "install2.r pak",
-    "uv-install": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+    "uv-install": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "air-formatter": "curl -LsSf https://github.com/posit-dev/air/releases/latest/download/air-installer.sh | sh"
   },
   "postAttachCommand": "sudo rstudio-server start",
   // Forward ports for RStudio
