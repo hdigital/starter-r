@@ -4,8 +4,8 @@
   "default": true,
   // Allow duplication for headings with different parents
   "MD024": {
-    "siblings_only": true
-  }
+    "siblings_only": true,
+  },
   // Disable rules in file: <!-- markdownlint-disable -->
   // Enable rules in file:  <!-- markdownlint-enable -->
 }
