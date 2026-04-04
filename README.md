@@ -8,17 +8,21 @@ callr::rscript("utils/run-all.R", stdout="utils/run-all.log")  # R console
 
 ```sh
 Rscript utils/run-all.R > "utils/run-all.log"  # terminal (local)
-```
 
-```sh
-./utils/run-all-docker.sh  # terminal (Docker)
+./utils/run-all-docker.sh                      # terminal (Docker)
 ```
 
 ## Install · ⚙️
 
 ### Local · 💻
 
-Install all R packages project with `utils/r-packages-update.R`
+Install, sync, update project R packages from `pkg.lock`:
+
+```sh
+Rscript utils/r-packages-install.R
+
+Rscript utils/r-packages-update.R
+```
 
 ### Codespace · 🛰️
 
@@ -30,22 +34,15 @@ Run in [Github Codespaces](https://docs.github.com/en/codespaces/getting-started
 
 ### Docker · 🚢
 
-Use [Docker](https://docs.docker.com/get-docker/) to run RStudio in a browser with all dependencies.
+Use [Docker](https://docs.docker.com/get-docker/) to run RStudio in a browser
+with all dependencies.
 
 <http://localhost:8787/>
 
 ```sh
 docker-compose up -d  # start container in detached mode
 
-docker-compose down  # shut down container
-```
-
-## How-to · 💡
-
-Update R packages with latest R version in a Rocker container
-
-```sh
-./utils/update-rocker.sh
+docker-compose down   # shut down container
 ```
 
 ## License · ⚖️

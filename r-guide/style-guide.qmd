@@ -18,8 +18,8 @@ pipes — `|>` · 🌬️
 
 data · 🔢
 
-+ use coherent prefixes for groups of data // `dt dt_ctry dt_ctz`
-+ prefix `raw_` for raw data read into object with
++ use coherent prefixes for groups of data // `dt_ctry`
++ prefix `raw_` for raw data from source // `raw_dt_ctry`
 
 plots · 📊
 

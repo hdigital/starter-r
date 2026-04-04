@@ -36,10 +36,12 @@ purrr::map(fs::dir_ls(".", glob = "*.Rmd"), rmarkdown::render)
 
 Use script and save output
 
+Run these commands from the repository root (not from `r-guide/`).
+
 ```R
-callr::rscript("z-run-all.R", stdout="z-run-all.log")  # R console
+callr::rscript("utils/run-all.R", stdout="utils/run-all.log")  # R console
 ```
 
 ```sh
-Rscript z-run-all.R > "z-run-all.log"                  # terminal
+Rscript utils/run-all.R > "utils/run-all.log"                  # terminal
 ```

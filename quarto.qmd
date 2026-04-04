@@ -40,11 +40,11 @@ round_numeric_variables <- function(data, digits = 0) {
 }
 ```
 
-```{r data-raw}
+```{r run-data-script}
 #| eval: FALSE
 #| include: FALSE
 
-callr::rscript("data-raw.R")
+callr::rscript("data.R")
 ```
 
 ---
