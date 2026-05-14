@@ -5,7 +5,7 @@ and version numbers follow
 [R releases](https://cran.r-project.org/bin/windows/base/old/) (e.g., v4.3)
 — see [tags](https://github.com/hdigital/starter-r/tags).
 
-## [Unreleased] — YYYY-MM-DD
+## [Unreleased] — YYYY-MM
 
 ### Added
 
@@ -24,7 +24,7 @@ and version numbers follow
 - _for bug fixes_
 - Fix minor issues
 
-## [v4.6] — 2026-05-14
+## [v4.6] — 2026-05
 
 ### Added
 
@@ -44,7 +44,7 @@ and version numbers follow
 - Fix cross-references in docs ([#21](https://github.com/hdigital/starter-r/pull/21))
 - Fix minor issues
 
-## [v4.5] — 2025-05-18
+## [v4.5] — 2025-05
 
 ### Added
 
@@ -69,7 +69,7 @@ and version numbers follow
 - Fix cell options ([#14](https://github.com/hdigital/starter-r/pull/14))
 - Fix minor issues
 
-## [v4.4] — 2024-04-26
+## [v4.4] — 2024-04
 
 ### Added
 
@@ -89,11 +89,11 @@ and version numbers follow
 
 - Fix minor issues
 
-## [v4.3] — 2023-07-23
+## [v4.3] — 2023-07
 
 - Initial version with R 4.3
 
-## [Template] — YYYY-MM-DD
+## [Template] — YYYY-MM
 
 ### Added
 
