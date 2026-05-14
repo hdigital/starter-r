@@ -1,6 +1,6 @@
 # parent image — R version specified to pin packages (see 'rocker-versioned2')
 # https://cran.r-project.org/doc/manuals/r-release/NEWS.html
-FROM rocker/tidyverse:4.6.0
+FROM rocker/tidyverse:4.6
 
 WORKDIR /home/rstudio
 
