@@ -24,7 +24,7 @@ and version numbers follow
 - _for bug fixes_
 - Fix minor issues
 
-## [v4.6] — 2026-05
+## [v4.6] — 2026-07
 
 ### Added
 
