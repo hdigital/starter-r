@@ -1,47 +1,47 @@
 Styling  11  files:
- data.R                     ✔ 
- quarto.qmd                 ✔ 
- r-markdown.Rmd             ✔ 
- r-script.R                 ✔ 
- r-guide/how-to.qmd         ✔ 
- r-guide/index.qmd          ✔ 
- r-guide/style-guide.qmd    ✔ 
- utils/r-packages-install.R ✔ 
- utils/r-packages-update.R  ✔ 
- utils/r-rocker-build.R     ✔ 
- utils/run-all.R            ✔ 
+ data.R                     [32m✔[39m 
+ quarto.qmd                 [32m✔[39m 
+ r-markdown.Rmd             [32m✔[39m 
+ r-script.R                 [32m✔[39m 
+ r-guide/how-to.qmd         [32m✔[39m 
+ r-guide/index.qmd          [32m✔[39m 
+ r-guide/style-guide.qmd    [32m✔[39m 
+ utils/r-packages-install.R [32m✔[39m 
+ utils/r-packages-update.R  [32m✔[39m 
+ utils/r-rocker-build.R     [32m✔[39m 
+ utils/run-all.R            [32m✔[39m 
 ────────────────────────────────────────
 Status	Count	Legend 
-✔ 	11	File unchanged.
-ℹ 	0	File changed.
-✖ 	0	Styling threw an error.
+[32m✔[39m 	11	File unchanged.
+[36mℹ[39m 	0	File changed.
+[31m✖[39m 	0	Styling threw an error.
 ────────────────────────────────────────
-── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.2     ✔ tibble    3.3.0
-✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.0.4     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Rows: 0 Columns: 0
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.2     ✔ tibble    3.3.0
-✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.0.4     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
-$data.R
+[31m── [1mAttaching core tidyverse packages[22m ──────────────────────── tidyverse 2.0.0 ──
+[32m✔[31m [34mdplyr    [31m 1.2.1     [32m✔[31m [34mreadr    [31m 2.2.0
+[32m✔[31m [34mforcats  [31m 1.0.1     [32m✔[31m [34mstringr  [31m 1.6.0
+[32m✔[31m [34mggplot2  [31m 4.0.3     [32m✔[31m [34mtibble   [31m 3.3.1
+[32m✔[31m [34mlubridate[31m 1.9.5     [32m✔[31m [34mtidyr    [31m 1.3.2
+[32m✔[31m [34mpurrr    [31m 1.2.2     
+[39m[31m── [1mConflicts[22m ────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[31m [34mdplyr[31m::[32mfilter()[31m masks [34mstats[31m::filter()
+[31m✖[31m [34mdplyr[31m::[32mlag()[31m    masks [34mstats[31m::lag()
+[36mℹ[31m Use the conflicted package ([3m[34m<http://conflicted.r-lib.org/>[31m[23m) to force all conflicts to become errors
+[39m[31m[1mRows: [22m[34m0[31m [1mColumns: [22m[34m0[31m
+[39m[31m
+[36mℹ[31m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[31m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[39m[31m── [1mAttaching core tidyverse packages[22m ──────────────────────── tidyverse 2.0.0 ──
+[32m✔[31m [34mdplyr    [31m 1.2.1     [32m✔[31m [34mreadr    [31m 2.2.0
+[32m✔[31m [34mforcats  [31m 1.0.1     [32m✔[31m [34mstringr  [31m 1.6.0
+[32m✔[31m [34mggplot2  [31m 4.0.3     [32m✔[31m [34mtibble   [31m 3.3.1
+[32m✔[31m [34mlubridate[31m 1.9.5     [32m✔[31m [34mtidyr    [31m 1.3.2
+[32m✔[31m [34mpurrr    [31m 1.2.2     
+[39m[31m── [1mConflicts[22m ────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[31m [34mdplyr[31m::[32mfilter()[31m masks [34mstats[31m::filter()
+[31m✖[31m [34mdplyr[31m::[32mlag()[31m    masks [34mstats[31m::lag()
+[36mℹ[31m Use the conflicted package ([3m[34m<http://conflicted.r-lib.org/>[31m[23m) to force all conflicts to become errors
+[39m[31m[1m[22m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+[39m$data.R
 $data.R$status
 [1] 0
 
@@ -49,7 +49,7 @@ $data.R$stdout
 [1] ""
 
 $data.R$stderr
-[1] "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\nRows: 0 Columns: 0\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n"
+[1] "── \033[1mAttaching core tidyverse packages\033[22m ──────────────────────── tidyverse 2.0.0 ──\n\033[32m✔\033[39m \033[34mdplyr    \033[39m 1.2.1     \033[32m✔\033[39m \033[34mreadr    \033[39m 2.2.0\n\033[32m✔\033[39m \033[34mforcats  \033[39m 1.0.1     \033[32m✔\033[39m \033[34mstringr  \033[39m 1.6.0\n\033[32m✔\033[39m \033[34mggplot2  \033[39m 4.0.3     \033[32m✔\033[39m \033[34mtibble   \033[39m 3.3.1\n\033[32m✔\033[39m \033[34mlubridate\033[39m 1.9.5     \033[32m✔\033[39m \033[34mtidyr    \033[39m 1.3.2\n\033[32m✔\033[39m \033[34mpurrr    \033[39m 1.2.2     \n── \033[1mConflicts\033[22m ────────────────────────────────────────── tidyverse_conflicts() ──\n\033[31m✖\033[39m \033[34mdplyr\033[39m::\033[32mfilter()\033[39m masks \033[34mstats\033[39m::filter()\n\033[31m✖\033[39m \033[34mdplyr\033[39m::\033[32mlag()\033[39m    masks \033[34mstats\033[39m::lag()\n\033[36mℹ\033[39m Use the conflicted package (\033[3m\033[34m<http://conflicted.r-lib.org/>\033[39m\033[23m) to force all conflicts to become errors\n\033[1mRows: \033[22m\033[34m0\033[39m \033[1mColumns: \033[22m\033[34m0\033[39m\n\n\033[36mℹ\033[39m Use `spec()` to retrieve the full column specification for this data.\n\033[36mℹ\033[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.\n"
 
 $data.R$timeout
 [1] FALSE
@@ -66,7 +66,7 @@ $`r-script.R`$stdout
 [1] ""
 
 $`r-script.R`$stderr
-[1] "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n"
+[1] "── \033[1mAttaching core tidyverse packages\033[22m ──────────────────────── tidyverse 2.0.0 ──\n\033[32m✔\033[39m \033[34mdplyr    \033[39m 1.2.1     \033[32m✔\033[39m \033[34mreadr    \033[39m 2.2.0\n\033[32m✔\033[39m \033[34mforcats  \033[39m 1.0.1     \033[32m✔\033[39m \033[34mstringr  \033[39m 1.6.0\n\033[32m✔\033[39m \033[34mggplot2  \033[39m 4.0.3     \033[32m✔\033[39m \033[34mtibble   \033[39m 3.3.1\n\033[32m✔\033[39m \033[34mlubridate\033[39m 1.9.5     \033[32m✔\033[39m \033[34mtidyr    \033[39m 1.3.2\n\033[32m✔\033[39m \033[34mpurrr    \033[39m 1.2.2     \n── \033[1mConflicts\033[22m ────────────────────────────────────────── tidyverse_conflicts() ──\n\033[31m✖\033[39m \033[34mdplyr\033[39m::\033[32mfilter()\033[39m masks \033[34mstats\033[39m::filter()\n\033[31m✖\033[39m \033[34mdplyr\033[39m::\033[32mlag()\033[39m    masks \033[34mstats\033[39m::lag()\n\033[36mℹ\033[39m Use the conflicted package (\033[3m\033[34m<http://conflicted.r-lib.org/>\033[39m\033[23m) to force all conflicts to become errors\n\033[1m\033[22m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n"
 
 $`r-script.R`$timeout
 [1] FALSE
@@ -79,15 +79,15 @@ $`r-script.R`$command
 2/4 [options]
 3/4          
 4/4 [snippet]
-/usr/bin/pandoc +RTS -K512m -RTS r-markdown.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output r-markdown.html --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/latex-div.lua --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/table-classes.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --table-of-contents --toc-depth 3 --variable toc_float=1 --variable toc_selectors=h1,h2,h3 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template /usr/local/lib/R/site-library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmphhf7Qs/rmarkdown-str287695787.html --variable code_folding=hide --variable source_embed=r-markdown.Rmd --include-after-body /tmp/Rtmphhf7Qs/file28656cbf37.html --variable code_menu=1 --variable kable-scroll=1 
+/usr/bin/pandoc +RTS -K512m -RTS r-markdown.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output r-markdown.html --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/latex-div.lua --lua-filter /usr/local/lib/R/site-library/rmarkdown/rmarkdown/lua/table-classes.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --table-of-contents --toc-depth 3 --variable toc_float=1 --variable toc_selectors=h1,h2,h3 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template /usr/local/lib/R/site-library/rmarkdown/rmd/h/default.html --syntax-highlighting none --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmp15f1lS/rmarkdown-str244969a193f6.html --variable code_folding=hide --variable source_embed=r-markdown.Rmd --include-after-body /tmp/Rtmp15f1lS/file24494320b3e4.html --variable code_menu=1 --variable kable-scroll=1 
 $`r-markdown.Rmd`
-[1] "/home/rstudio/r-markdown.nb.html"
+[1] "/workspaces/starter-r/r-markdown.nb.html"
 
  [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
 [20] TRUE
-R version 4.5.0 (2025-04-11)
+R version 4.6.1 (2026-06-24)
 Platform: x86_64-pc-linux-gnu
-Running under: Ubuntu 24.04.2 LTS
+Running under: Ubuntu 24.04.4 LTS
 
 Matrix products: default
 BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
@@ -106,22 +106,22 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] lintr_3.2.0      styler_1.10.3    rmarkdown_2.29   httr2_1.1.2      skimr_2.1.5     
- [6] reactable_0.4.4  patchwork_1.3.0  ggeffects_2.2.1  broom_1.0.8      knitr_1.50      
-[11] conflicted_1.2.0 lubridate_1.9.4  forcats_1.0.0    stringr_1.5.1    dplyr_1.1.4     
-[16] readr_2.1.5      tidyr_1.3.1      tibble_3.3.0     ggplot2_3.5.2    tidyverse_2.0.0 
-[21] pak_0.9.0        purrr_1.0.4      fs_1.6.6         callr_3.7.6     
+ [1] lintr_3.3.0-1    styler_1.11.0    rmarkdown_2.31   httr2_1.2.3      skimr_2.2.2     
+ [6] reactable_0.4.5  patchwork_1.3.2  ggeffects_2.3.2  broom_1.0.13     knitr_1.51      
+[11] conflicted_1.2.0 lubridate_1.9.5  forcats_1.0.1    stringr_1.6.0    dplyr_1.2.1     
+[16] readr_2.2.0      tidyr_1.3.2      tibble_3.3.1     ggplot2_4.0.3    tidyverse_2.0.0 
+[21] pak_0.10.0       purrr_1.2.2      fs_2.1.0         callr_3.8.0     
 
 loaded via a namespace (and not attached):
- [1] gtable_0.3.6       xfun_0.52          bslib_0.9.0        htmlwidgets_1.6.4  insight_1.3.0     
- [6] processx_3.8.6     lattice_0.22-6     tzdb_0.5.0         vctrs_0.6.5        tools_4.5.0       
-[11] ps_1.9.1           generics_0.1.4     pkgconfig_2.0.3    R.oo_1.27.1        Matrix_1.7-3      
-[16] RColorBrewer_1.1-3 lifecycle_1.0.4    R.cache_0.17.0     compiler_4.5.0     farver_2.1.2      
-[21] repr_1.1.7         htmltools_0.5.8.1  sass_0.4.10        yaml_2.3.10        lazyeval_0.2.2    
-[26] pillar_1.10.2      jquerylib_0.1.4    R.utils_2.13.0     cachem_1.1.0       xmlparsedata_1.0.5
-[31] nlme_3.1-168       tidyselect_1.2.1   digest_0.6.37      stringi_1.8.7      labeling_0.4.3    
-[36] splines_4.5.0      fastmap_1.2.0      grid_4.5.0         cli_3.6.5          magrittr_2.0.3    
-[41] base64enc_0.1-3    withr_3.0.2        rappdirs_0.3.3     scales_1.4.0       backports_1.5.0   
-[46] timechange_0.3.0   R.methodsS3_1.8.2  hms_1.1.3          memoise_2.0.1      evaluate_1.0.3    
-[51] rex_1.2.1          mgcv_1.9-1         rlang_1.1.6        glue_1.8.0         xml2_1.3.8        
-[56] rstudioapi_0.17.1  jsonlite_2.0.0     R6_2.6.1          
+ [1] gtable_0.3.6       xfun_0.60          bslib_0.11.0       htmlwidgets_1.6.4  insight_1.5.2     
+ [6] processx_3.9.0     lattice_0.22-9     tzdb_0.5.0         vctrs_0.7.3        tools_4.6.1       
+[11] ps_1.9.3           generics_0.1.4     pkgconfig_2.0.3    R.oo_1.27.1        Matrix_1.7-5      
+[16] RColorBrewer_1.1-3 S7_0.2.2           lifecycle_1.0.5    R.cache_0.17.0     compiler_4.6.1    
+[21] farver_2.1.2       repr_1.1.7         htmltools_0.5.9    sass_0.4.10        yaml_2.3.12       
+[26] pillar_1.11.1      jquerylib_0.1.4    R.utils_2.13.0     cachem_1.1.0       xmlparsedata_1.0.5
+[31] nlme_3.1-169       tidyselect_1.2.1   digest_0.6.39      stringi_1.8.7      labeling_0.4.3    
+[36] splines_4.6.1      fastmap_1.2.0      grid_4.6.1         cli_3.6.6          magrittr_2.0.5    
+[41] base64enc_0.1-6    withr_3.0.3        rappdirs_0.3.4     scales_1.4.0       backports_1.5.1   
+[46] timechange_0.4.0   otel_0.2.0         R.methodsS3_1.8.2  hms_1.1.4          memoise_2.0.1     
+[51] evaluate_1.0.5     rex_1.2.2          mgcv_1.9-4         rlang_1.3.0        glue_1.8.1        
+[56] xml2_1.6.0         rstudioapi_0.19.0  jsonlite_2.0.0     R6_2.6.1          
