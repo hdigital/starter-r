@@ -5,16 +5,15 @@ and version numbers follow
 [R releases](https://cran.r-project.org/bin/windows/base/old/) (e.g., v4.3)
 — see [tags](https://github.com/hdigital/starter-r/tags).
 
-## [Unreleased] — YYYY-MM-DD
+## [Unreleased] — YYYY-MM
 
 ### Added
 
-- Document version changes in a 'changelog' ([#16](https://github.com/hdigital/starter-r/pull/16))
-- Add Air code formatter ([#20](https://github.com/hdigital/starter-r/pull/20))
+- _for new features_
 
 ### Changed
 
-- Use 'pak' to detect package dependencies ([#17](https://github.com/hdigital/starter-r/pull/17))
+- _for changes in functionality_
 
 ### Removed
 
@@ -25,7 +24,27 @@ and version numbers follow
 - _for bug fixes_
 - Fix minor issues
 
-## [v4.5] — 2025-05-18
+## [v4.6] — 2026-07
+
+### Added
+
+- Document version changes in a 'changelog' ([#16](https://github.com/hdigital/starter-r/pull/16))
+- Add and revise documentation headers in scripts ([#19](https://github.com/hdigital/starter-r/pull/19))
+- Configure 'typos' spell checker ([2d6b4f8](https://github.com/hdigital/starter-r/commit/2d6b4f84a18430dd9ccfee0f9fa8830de829aee7))
+- Add Air code formatter ([#20](https://github.com/hdigital/starter-r/pull/20))
+
+### Changed
+
+- Update to R 4.6 ([8b8c411](https://github.com/hdigital/starter-r/commit/8b8c411052d6337c71f952246f1256ca73bc9f8a))
+- Specify Docker target platform ([cbdfa80](https://github.com/hdigital/starter-r/commit/cbdfa803a061e356148a590c375f812dfb6fef9d))
+- Use 'pak' to detect package dependencies ([#17](https://github.com/hdigital/starter-r/pull/17))
+
+### Fixed
+
+- Fix cross-references in docs ([#21](https://github.com/hdigital/starter-r/pull/21))
+- Fix minor issues
+
+## [v4.5] — 2025-05
 
 ### Added
 
@@ -50,7 +69,7 @@ and version numbers follow
 - Fix cell options ([#14](https://github.com/hdigital/starter-r/pull/14))
 - Fix minor issues
 
-## [v4.4] — 2024-04-26
+## [v4.4] — 2024-04
 
 ### Added
 
@@ -70,11 +89,11 @@ and version numbers follow
 
 - Fix minor issues
 
-## [v4.3] — 2023-07-23
+## [v4.3] — 2023-07
 
 - Initial version with R 4.3
 
-## [Template] — YYYY-MM-DD
+## [Template] — YYYY-MM
 
 ### Added
 
