@@ -1,7 +1,8 @@
 {
   "name": "Rocker codespace",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "options": ["--platform=linux/amd64" ]
   },
   // Install Dev Container Features. More info: https://containers.dev/features
   "features": {
